@@ -60,5 +60,5 @@ else
     exit 1
 fi
 
-
+echo "All good"
 exit 0
