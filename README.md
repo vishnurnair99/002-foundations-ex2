@@ -58,6 +58,8 @@ Here is pattern 2 with 2, 3, and 4 rows
      ###
     ####
 
+**Please make sure that you don't print unnecessary newlines. The tests will fail if you do.**
+
 ### Examples
 
 For pattern 1
@@ -84,6 +86,22 @@ For pattern 2
          ####
         #####
        ######
+
+### Hints
+Here is an output with the spaces replaced by `.` in pattern 2 so that you know how
+many spaces to print in each of the patterns
+
+
+    $ ./patterns
+    Enter type of pattern (1 or 2) 2
+    Number of rows4
+    ...#
+    ..##
+    .###
+    ####
+
+
+
 
 ## Exercise 2
 Write a program called `pythagorean.c` which will read 3 floating
